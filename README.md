@@ -18,23 +18,25 @@ Para testar o projeto, você precisará ter as seguintes ferramentas instaladas 
 2. **npm**: O gerenciador de pacotes para Node.js. O npm é instalado automaticamente com o Node.js.
 3. **Angular CLI**: A ferramenta de linha de comando para Angular. Instale-a globalmente usando o comando:
 
-   ```bash
-   npm install -g @angular/cli
+```bash
+    npm install -g @angular/cli
+```
 
 ## Clonando o Repositório
 
 Para começar, clone o repositório do projeto usando o comando:
 
-    ```bash
+```bash
     git clone https://github.com/Werricsson-Santos/healthy-recipes-angular.git
-    ```
+```
+
 ## Instalando Dependências
 
 Após clonar o repositório, navegue até o diretório do projeto e instale as dependências necessárias com:
 
-    ```bash
+```bash
     npm install
-    ```
+```
 
 ## Configuração do Projeto
 
@@ -55,17 +57,17 @@ Após obter a chave de API, você precisará criar um arquivo de ambiente no pro
 1. Dentro da pasta `src/environments`, crie um arquivo chamado `environment.ts`.
 2. Adicione o seguinte conteúdo ao arquivo, substituindo `'chaveGerada'` pela sua chave de API:
 
-   ```typescript
+```typescript
    export const environment = {
      apiKey: 'chaveGerada'
    };
-   ```
+```
 
 ### 3. Servidor de Desenvolvimento
 
 Para iniciar o servidor de desenvolvimento, execute o comando:
 
-   ```bash
+```bash
    ng serve
-   ```
+```
 Em seguida, abra o navegador e navegue até http://localhost:4200/. A aplicação será carregada e estará disponível para visualização. Sempre que você alterar qualquer um dos arquivos fonte, a aplicação será recarregada automaticamente para refletir as mudanças.
