@@ -2,6 +2,25 @@
 
 Este projeto é um estudo prático em Angular, onde desenvolvemos uma aplicação para buscar e exibir receitas utilizando a API [Spoonacular](https://spoonacular.com/food-api). O objetivo é aprender e aplicar conceitos fundamentais do Angular, como componentes, serviços, binding de dados e consumo de APIs externas.
 
+## Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/) ![Node.js Badge](https://img.shields.io/badge/Node.js-22.x-brightgreen)
+- [npm](https://www.npmjs.com/) ![npm Badge](https://img.shields.io/badge/npm-10.x-red)
+- [Angular CLI](https://github.com/angular/angular-cli) ![Angular CLI Badge](https://img.shields.io/badge/Angular%20CLI-15.x-blue)
+- [Angular](https://angular.io/) ![Angular Badge](https://img.shields.io/badge/Angular-15.x-red)
+- [TypeScript](https://www.typescriptlang.org/) ![TypeScript Badge](https://img.shields.io/badge/TypeScript-4.x-blueviolet)
+
+## Requisitos
+
+Para testar o projeto, você precisará ter as seguintes ferramentas instaladas na sua máquina:
+
+1. **Node.js**: O ambiente de execução JavaScript necessário para executar o Angular CLI e o npm. Você pode baixá-lo em [Node.js](https://nodejs.org/).
+2. **npm**: O gerenciador de pacotes para Node.js. O npm é instalado automaticamente com o Node.js.
+3. **Angular CLI**: A ferramenta de linha de comando para Angular. Instale-a globalmente usando o comando:
+
+   ```bash
+   npm install -g @angular/cli
+
 ## Clonando o Repositório
 
 Para começar, clone o repositório do projeto usando o comando:
