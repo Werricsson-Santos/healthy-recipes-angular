@@ -1,27 +1,52 @@
 # HealthyRecipes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+Este projeto é um estudo prático em Angular, onde desenvolvemos uma aplicação para buscar e exibir receitas utilizando a API [Spoonacular](https://spoonacular.com/food-api). O objetivo é aprender e aplicar conceitos fundamentais do Angular, como componentes, serviços, binding de dados e consumo de APIs externas.
 
-## Development server
+## Clonando o Repositório
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para começar, clone o repositório do projeto usando o comando:
 
-## Code scaffolding
+    ```bash
+    git clone https://github.com/Werricsson-Santos/healthy-recipes-angular.git
+    ```
+## Instalando Dependências
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Após clonar o repositório, navegue até o diretório do projeto e instale as dependências necessárias com:
 
-## Build
+    ```bash
+    npm install
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Configuração do Projeto
 
-## Running unit tests
+Para configurar e executar o projeto, siga os passos abaixo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 1. Criar uma Conta na API Spoonacular
 
-## Running end-to-end tests
+Para que a aplicação funcione corretamente, você precisará de uma chave de API fornecida pela Spoonacular. Siga os passos abaixo para obter a sua chave:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Acesse o site da API: [Spoonacular Food API](https://spoonacular.com/food-api).
+2. Crie uma conta gratuita.
+3. Gere a sua chave de API (é possível realizar até 150 requisições por dia gratuitamente).
 
-## Further help
+### 2. Configuração do Ambiente
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Após obter a chave de API, você precisará criar um arquivo de ambiente no projeto para armazená-la. Siga os passos abaixo:
+
+1. Dentro da pasta `src/environments`, crie um arquivo chamado `environment.ts`.
+2. Adicione o seguinte conteúdo ao arquivo, substituindo `'chaveGerada'` pela sua chave de API:
+
+   ```typescript
+   export const environment = {
+     apiKey: 'chaveGerada'
+   };
+   ```
+
+### 3. Servidor de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento, execute o comando:
+
+   ```bash
+   ng serve
+   ```
+Em seguida, abra o navegador e navegue até http://localhost:4200/. A aplicação será carregada e estará disponível para visualização. Sempre que você alterar qualquer um dos arquivos fonte, a aplicação será recarregada automaticamente para refletir as mudanças.
